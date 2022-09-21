@@ -13,6 +13,53 @@
     <header class="mb-3 bg-dark">
         <h1 class="h1 text-center text-info p-2">Some important questions and answers.</h1>
     </header>
-
+    <!-- main area -->
+    <main class="container">
+        <div class="card-container">
+            <!-- all cards -->
+             <div class="card mb-4">
+                <h5 class="card-header bg-dark text-white">
+                    How We get Undefined?
+                </h5>
+                <div class="card-body bg-info text">
+                    <p class="card-text">
+                        We can get undefined in many ways. A variable that has not been assigned a value is of type undefined . A method or statement also returns undefined if the variable that is being evaluated does not have an assigned value. A function returns undefined if a value was not returned .
+                    </p>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <h5 class="card-header bg-dark text-white">
+                    How Even loop Works in JavaScript?
+                </h5>
+                <div class="card-body bg-info text">
+                    <p class="card-text">
+                        <strong>Event Loop:</strong> The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which effectively runs it. Such an iteration is called a tick in the Event Loop.
+                    </p>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <h5 class="card-header bg-dark text-white">
+                    Differece between Global Scope and Blog Scope.
+                </h5>
+                <div class="card-body bg-info text">
+                    <p class="card-text">
+                        <strong>Global Scope:</strong> Variables declared Globally (outside any function) have Global Scope. Global variables can be accessed from anywhere in a JavaScript program. <br>
+                        <strong>Block Scope:</strong> This scope restricts the variable that is declared inside a specific block, from access by the outside of the block. The let & const keyword facilitates the variables to be block scoped. In order to access the variables of that specific block, we need to create an object for it.
+                    </p>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <h5 class="card-header bg-dark text-white">
+                    Differece between Local storage and Session storage.
+                </h5>
+                <div class="card-body bg-info text">
+                    <p class="card-text">
+                        <strong>Local Storage:</strong> This read-only interface property provides access to the Document’s local storage object, the stored data is stored across browser sessions. Similar to sessionStorage, except that localStorage data gets cleared when the page session ends – that is when the page is closed. It is cleared when the last “private” tab of a browser is closed. <br>
+                        <strong>Session Storage:</strong> Session Storage objects can be accessed using the sessionStorage read-only property. The difference between sessionStorage and localStorage is that localStorage data does not expire, whereas sessionStorage data is cleared when the page session ends.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
